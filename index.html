@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Library</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script>src='script.js'</script>
+</head>
+
+<body>
+
+    <div class="container" id="overall">
+    
+        <div class="sidebar sidebar--isHidden">
+            
+            <ul class="sidebar-menu">
+                <button class="openbtn .openbtn--isHidden">☰</button>
+                <li class="sidebar-menu__item"><a href="#"><i class="fa fa-rss" aria-hidden="true"></i> Item 1</a></li>
+                <li class="sidebar-menu__item"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Item 2</a></li>
+                <li class="sidebar-menu__item"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> Item 3</a></li>
+            </ul>
+        </div>
+
+        <header class="top">
+                <h1 class="page">Library</h1>
+                <div class="logo">
+                    <div><img src="imgs/ghostLogo.jpeg" alt="Ghost-Logo" id="logo"></div>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder=&#x1F50E; class="searchbar" card-search>
+                </div>
+        </header>
+
+        <div class="main">
+            <div class="main-butts">
+                <ul class="button-list">
+                    <li><button class="newButt">Add Book</button></li>
+                    <li><button>button2</button></li>
+                    <li><button>button3</button></li>
+                </ul>
+            </div>
+            <div class="card-space">
+                <div class="card">
+                    <div class="remove-div">
+                        <button id="remove">X</button>
+                    </div>
+                    <p class="title">The Hobbit</p>
+                    <p class="author">J.R. Tolkein</p>
+                    <p class="pages">304</p>
+                    <p class="read">Finished</p>
+                    <p class="notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="foot">Footer</div>
+    </div>
+
+    <!-- New Card Form Test 
+    <div class="closeBG">
+        <div class="new-card">
+            <form class="new-form">
+                <input type="text" id="card-title" class='title' name="card-title" placeholder="Title">
+                <textarea id='new-detail' rows="4" cols="15" placeholder="Details"></textarea> 
+                <div class='butt-holder'>
+                    <button id="submit-new">Submit</button>
+                </div>
+              </form>
+              
+        </div>
+    </div> -->
+
+    <script src="script.js"></script>    
+</body>
